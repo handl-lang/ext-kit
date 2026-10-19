@@ -15,7 +15,7 @@
 use std::path::{Path, PathBuf};
 
 use handl_ext::{ExtRequest, ExtResponse, ExtensionManifest};
-use handl_kit_canonical::Kit;
+use handl_kit_prelude::Kit;
 use handl_platform::{CapabilityRequest, DefaultHost, PlatformError};
 
 handl_ext::export!(
