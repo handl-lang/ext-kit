@@ -1,0 +1,50 @@
+{
+  "schema": "peregrin/run-result/1",
+  "run_id": "ab038b491bc100fb",
+  "campaign": "gate-rust",
+  "status": "completed",
+  "verdict": "pass",
+  "conclusion": "success",
+  "started_at": "2026-11-23T04:14:49.242+00:00",
+  "completed_at": "2026-11-23T04:20:26.949+00:00",
+  "output": {
+    "title": "gate-rust",
+    "summary": "",
+    "text": ""
+  },
+  "nodes": [
+    {
+      "id": "gate.init",
+      "status": "completed",
+      "conclusion": "success",
+      "fires": 1,
+      "secs": 0.072,
+      "rc": 0
+    },
+    {
+      "id": "gate.ensure",
+      "status": "completed",
+      "conclusion": "success",
+      "fires": 1,
+      "secs": 0.326,
+      "rc": 0
+    },
+    {
+      "id": "gate.rust",
+      "status": "completed",
+      "conclusion": "success",
+      "fires": 1,
+      "secs": 337.294,
+      "rc": 0
+    },
+    {
+      "id": "gate.report",
+      "status": "completed",
+      "conclusion": "success",
+      "fires": 1,
+      "secs": 0.011,
+      "rc": 0
+    }
+  ],
+  "failed_events": []
+}
